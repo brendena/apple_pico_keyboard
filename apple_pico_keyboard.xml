@@ -1,0 +1,1206 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>/home/testsetup/Documents/pico/keyboard_pico/apple_pico_keyboard/apple_pico_keyboard.kicad_sch</source>
+    <date>Wed 03 Aug 2022 09:08:56 PM EDT</date>
+    <tool>Eeschema 6.0.2+dfsg-1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>apple_pico_keyboard.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>80be1da4-dedb-403c-981c-3a9152b40360</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1d32bc68-53ea-4f20-b9d3-00dcc66e845a</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e015a2d6-b23b-4680-be5a-dd3d9cae1428</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>0.1uf</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <libsource lib="pspice" part="CAP" description="Capacitor symbol for simulation only"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e72f01a2-e76b-415d-bdcc-015306f2f930</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>DIODE</value>
+      <footprint>Diode_THT:D_DO-34_SOD68_P7.62mm_Horizontal</footprint>
+      <libsource lib="pspice" part="DIODE" description="Diode symbol for simulation only. Pin order incompatible with official kicad footprints"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a87a66dd-3cc7-4cd7-a72c-f0f51f6f816b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>USB_A</value>
+      <footprint>Connector_USB:USB_A_CNCTech_1001-011-01101_Horizontal</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="USB_A" description="USB Type A connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>82e6fddf-5fbc-4afd-a9fe-eacaa37050f3</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>DB9_Female</value>
+      <footprint>Connector_Dsub:DSUB-9_Female_Horizontal_P2.77x2.54mm_EdgePinOffset9.40mm</footprint>
+      <datasheet> ~</datasheet>
+      <libsource lib="Connector" part="DB9_Female" description="9-pin female D-SUB connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d176712a-3ef6-405e-92af-07b2c6be892a</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>Mini-DIN-6</value>
+      <footprint>LocalFootprints:MiniDin6</footprint>
+      <datasheet>http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf</datasheet>
+      <libsource lib="Connector" part="Mini-DIN-6" description="6-pin Mini-DIN connector"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>165cc745-1bb5-4edf-83e3-a0fcb07412e7</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>Conn_01x16_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x16_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x16_Male" description="Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9977f6b3-fd4a-441f-a167-e5f7e902051c</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>Conn_01x03_Male</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="Conn_01x03_Male" description="Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d4aaa840-2c8e-4306-930a-6365cca51fef</tstamps>
+    </comp>
+    <comp ref="keyboard_voltage_shifters1">
+      <value>TXS0108EPW</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>www.ti.com/lit/ds/symlink/txs0108e.pdf</datasheet>
+      <libsource lib="Logic_LevelTranslator" part="TXS0108EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-20"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>52e21ae1-75d6-4b7d-b4db-ca3b31dfa319</tstamps>
+    </comp>
+    <comp ref="Op_pullup_ck1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>af955edb-4849-4b65-b9d3-15c31dc09130</tstamps>
+    </comp>
+    <comp ref="Op_Pullup_data1">
+      <value>10k</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0bf9a605-1ed3-48a5-aa63-5e0c16fb660e</tstamps>
+    </comp>
+    <comp ref="p1">
+      <value>apple_2e_keyboard</value>
+      <footprint>Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical</footprint>
+      <libsource lib="" part="apple_2e_keyboard_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25fd87b0-f9c1-47bc-b816-0c0f7de5d708</tstamps>
+    </comp>
+    <comp ref="passthrough1">
+      <value>apple_2e_keyboard</value>
+      <footprint>Connector_IDC:IDC-Header_2x13_P2.54mm_Vertical</footprint>
+      <libsource lib="apple_ii_parts" part="apple_2e_keyboard" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e538d7a4-c6c2-4498-8a2f-52f55c36eace</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>150</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f69a0514-84f8-48a1-a1d1-f94b9428f177</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>100?</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>54e20ae2-926b-44c8-b295-641b371216bf</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6b185ee6-f166-4f87-803a-d20bc4e23353</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>470</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>94eeeda5-1446-408b-8c8c-8a964b892959</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>100?</value>
+      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7423add4-37a8-4563-860d-e5bd3b11244a</tstamps>
+    </comp>
+    <comp ref="SpecialKeys_voltage_shifters1">
+      <value>TXS0108EPW</value>
+      <footprint>Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</footprint>
+      <datasheet>www.ti.com/lit/ds/symlink/txs0108e.pdf</datasheet>
+      <libsource lib="Logic_LevelTranslator" part="TXS0108EPW" description="Bidirectional  level-shifting voltage translator, TSSOP-20"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1c68281c-43a1-4222-8f2e-8c7d9e6a6ed4</tstamps>
+    </comp>
+    <comp ref="Tp1">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c2b1fa44-cf99-4ddf-b29c-11877f1ebfc9</tstamps>
+    </comp>
+    <comp ref="TP2">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20add368-66c0-4108-a5cc-b407ac1ca4a0</tstamps>
+    </comp>
+    <comp ref="TP3">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_1.00mm:PinHeader_1x01_P1.00mm_Horizontal</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>316fc518-6fa6-417e-aeb6-720be6c149a3</tstamps>
+    </comp>
+    <comp ref="TP19">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20c7a0fb-1b9c-42ab-af8c-d13542db69bd</tstamps>
+    </comp>
+    <comp ref="TP20">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a081e3a1-f60b-4c58-9b66-0a020557a277</tstamps>
+    </comp>
+    <comp ref="TP21">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3181bc64-2aaf-44f6-9405-2be2be4cb954</tstamps>
+    </comp>
+    <comp ref="TP22">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7c2cfef6-b520-4a20-801b-21afd32dd53f</tstamps>
+    </comp>
+    <comp ref="TP23">
+      <value>i2c1_scl</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>687e1aa2-ce15-4811-82e9-1fd1eb187a5f</tstamps>
+    </comp>
+    <comp ref="TP24">
+      <value>i2c1_sda</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f60895f3-5f76-44b1-b223-cc5a6b6de695</tstamps>
+    </comp>
+    <comp ref="TP25">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>41b03813-929d-4aa5-82e0-5520b5eb9a28</tstamps>
+    </comp>
+    <comp ref="TP26">
+      <value>TestPoint</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical</footprint>
+      <libsource lib="Connector" part="TestPoint" description="test point"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bf747e77-86ea-4d1b-a22d-45ee1d99b675</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TLP592A</value>
+      <footprint>Package_DIP:DIP-6_W7.62mm_LongPads</footprint>
+      <libsource lib="apple_ii_parts" part="TLP592A" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>57e5048c-5c2b-4e2e-a31f-94b551c43df9</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>SN74HC4851</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <libsource lib="" part="SN74HC4851_1" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>647be72d-dffd-410d-9386-c6f0b9f97c31</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>Pico</value>
+      <footprint>RPi_Pico:RPi_Pico_SMD_TH</footprint>
+      <libsource lib="MCU_RaspberryPi_and_Boards" part="Pico" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>6499e367-9547-4818-ad20-7bbd393b7d4b</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>SN74HC4851</value>
+      <footprint>Package_SO:SOIC-16_3.9x9.9mm_P1.27mm</footprint>
+      <libsource lib="apple_ii_parts" part="SN74HC4851" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="apple_pico_keyboard.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc6adf9c-6904-47d9-b1b1-12e5ba767077</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="" part="SN74HC4851_1">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC4851_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y4" type="bidirectional"/>
+        <pin num="2" name="Y6" type="bidirectional"/>
+        <pin num="3" name="Com" type="output"/>
+        <pin num="4" name="Y7" type="bidirectional"/>
+        <pin num="5" name="Y5" type="bidirectional"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="GND" type="power_out"/>
+        <pin num="9" name="C" type="bidirectional"/>
+        <pin num="10" name="B" type="bidirectional"/>
+        <pin num="11" name="A" type="bidirectional"/>
+        <pin num="12" name="Y3" type="bidirectional"/>
+        <pin num="13" name="Y0" type="bidirectional"/>
+        <pin num="14" name="Y1" type="bidirectional"/>
+        <pin num="15" name="Y2" type="bidirectional"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="" part="apple_2e_keyboard_1">
+      <fields>
+        <field name="Reference">p</field>
+        <field name="Value">apple_2e_keyboard_1</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y0" type="output"/>
+        <pin num="2" name="Y1" type="output"/>
+        <pin num="3" name="5v" type="power_out"/>
+        <pin num="4" name="Y2" type="output"/>
+        <pin num="5" name="SW1/CAPL" type="open_emitter"/>
+        <pin num="6" name="Y3" type="output"/>
+        <pin num="7" name="SW0/OAPL" type="open_emitter"/>
+        <pin num="8" name="Y4" type="output"/>
+        <pin num="9" name="CAPLOCK" type="open_collector"/>
+        <pin num="10" name="Y5" type="output"/>
+        <pin num="11" name="CNTL" type="open_collector"/>
+        <pin num="12" name="y8" type="output"/>
+        <pin num="13" name="GND" type="power_out"/>
+        <pin num="14" name="x0" type="input"/>
+        <pin num="15" name="RESET" type="open_collector"/>
+        <pin num="16" name="x2" type="input"/>
+        <pin num="17" name="x7" type="input"/>
+        <pin num="18" name="x1" type="input"/>
+        <pin num="19" name="x5" type="input"/>
+        <pin num="20" name="x3" type="input"/>
+        <pin num="21" name="x4" type="input"/>
+        <pin num="22" name="y9" type="output"/>
+        <pin num="23" name="y6" type="output"/>
+        <pin num="24" name="SHFT*" type="open_collector"/>
+        <pin num="25" name="Y7" type="output"/>
+        <pin num="26" name="x6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x03_Male">
+      <description>Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x03_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Conn_01x16_Male">
+      <description>Generic connector, single row, 01x16, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Connector*:*_1x??_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Conn_01x16_Male</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+        <pin num="2" name="Pin_2" type="passive"/>
+        <pin num="3" name="Pin_3" type="passive"/>
+        <pin num="4" name="Pin_4" type="passive"/>
+        <pin num="5" name="Pin_5" type="passive"/>
+        <pin num="6" name="Pin_6" type="passive"/>
+        <pin num="7" name="Pin_7" type="passive"/>
+        <pin num="8" name="Pin_8" type="passive"/>
+        <pin num="9" name="Pin_9" type="passive"/>
+        <pin num="10" name="Pin_10" type="passive"/>
+        <pin num="11" name="Pin_11" type="passive"/>
+        <pin num="12" name="Pin_12" type="passive"/>
+        <pin num="13" name="Pin_13" type="passive"/>
+        <pin num="14" name="Pin_14" type="passive"/>
+        <pin num="15" name="Pin_15" type="passive"/>
+        <pin num="16" name="Pin_16" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="DB9_Female">
+      <description>9-pin female D-SUB connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>DSUB*Female*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DB9_Female</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="5" type="passive"/>
+        <pin num="6" name="6" type="passive"/>
+        <pin num="7" name="7" type="passive"/>
+        <pin num="8" name="8" type="passive"/>
+        <pin num="9" name="9" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Mini-DIN-6">
+      <description>6-pin Mini-DIN connector</description>
+      <docs>http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf</docs>
+      <footprints>
+        <fp>MINI?DIN*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Mini-DIN-6</field>
+        <field name="Datasheet">http://service.powerdynamics.com/ec/Catalog17/Section%2011.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+        <pin num="5" name="" type="passive"/>
+        <pin num="6" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="TestPoint">
+      <description>test point</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Pin*</fp>
+        <fp>Test*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">TP</field>
+        <field name="Value">TestPoint</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="USB_A">
+      <description>USB Type A connector</description>
+      <docs> ~</docs>
+      <footprints>
+        <fp>USB*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">USB_A</field>
+        <field name="Datasheet"> ~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_in"/>
+        <pin num="2" name="D-" type="bidirectional"/>
+        <pin num="3" name="D+" type="bidirectional"/>
+        <pin num="4" name="GND" type="power_in"/>
+        <pin num="5" name="Shield" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Logic_LevelTranslator" part="TXS0108EPW">
+      <description>Bidirectional  level-shifting voltage translator, TSSOP-20</description>
+      <docs>www.ti.com/lit/ds/symlink/txs0108e.pdf</docs>
+      <footprints>
+        <fp>*SSOP*4.4x6.5mm*P0.65mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TXS0108EPW</field>
+        <field name="Footprint">Package_SO:TSSOP-20_4.4x6.5mm_P0.65mm</field>
+        <field name="Datasheet">www.ti.com/lit/ds/symlink/txs0108e.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="bidirectional"/>
+        <pin num="2" name="VCCA" type="power_in"/>
+        <pin num="3" name="A2" type="bidirectional"/>
+        <pin num="4" name="A3" type="bidirectional"/>
+        <pin num="5" name="A4" type="bidirectional"/>
+        <pin num="6" name="A5" type="bidirectional"/>
+        <pin num="7" name="A6" type="bidirectional"/>
+        <pin num="8" name="A7" type="bidirectional"/>
+        <pin num="9" name="A8" type="bidirectional"/>
+        <pin num="10" name="OE" type="input"/>
+        <pin num="11" name="GND" type="power_in"/>
+        <pin num="12" name="B8" type="bidirectional"/>
+        <pin num="13" name="B7" type="bidirectional"/>
+        <pin num="14" name="B6" type="bidirectional"/>
+        <pin num="15" name="B5" type="bidirectional"/>
+        <pin num="16" name="B4" type="bidirectional"/>
+        <pin num="17" name="B3" type="bidirectional"/>
+        <pin num="18" name="B2" type="bidirectional"/>
+        <pin num="19" name="VCCB" type="power_in"/>
+        <pin num="20" name="B1" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="MCU_RaspberryPi_and_Boards" part="Pico">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">Pico</field>
+        <field name="Footprint">RPi_Pico:RPi_Pico_SMD_TH</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GPIO0" type="bidirectional"/>
+        <pin num="2" name="GPIO1" type="bidirectional"/>
+        <pin num="3" name="GND" type="power_in"/>
+        <pin num="4" name="GPIO2" type="bidirectional"/>
+        <pin num="5" name="GPIO3" type="bidirectional"/>
+        <pin num="6" name="GPIO4" type="bidirectional"/>
+        <pin num="7" name="GPIO5" type="bidirectional"/>
+        <pin num="8" name="GND" type="power_in"/>
+        <pin num="9" name="GPIO6" type="bidirectional"/>
+        <pin num="10" name="GPIO7" type="bidirectional"/>
+        <pin num="11" name="GPIO8" type="bidirectional"/>
+        <pin num="12" name="GPIO9" type="bidirectional"/>
+        <pin num="13" name="GND" type="power_in"/>
+        <pin num="14" name="GPIO10" type="bidirectional"/>
+        <pin num="15" name="GPIO11" type="bidirectional"/>
+        <pin num="16" name="GPIO12" type="bidirectional"/>
+        <pin num="17" name="GPIO13" type="bidirectional"/>
+        <pin num="18" name="GND" type="power_in"/>
+        <pin num="19" name="GPIO14" type="bidirectional"/>
+        <pin num="20" name="GPIO15" type="bidirectional"/>
+        <pin num="21" name="GPIO16" type="bidirectional"/>
+        <pin num="22" name="GPIO17" type="bidirectional"/>
+        <pin num="23" name="GND" type="power_in"/>
+        <pin num="24" name="GPIO18" type="bidirectional"/>
+        <pin num="25" name="GPIO19" type="bidirectional"/>
+        <pin num="26" name="GPIO20" type="bidirectional"/>
+        <pin num="27" name="GPIO21" type="bidirectional"/>
+        <pin num="28" name="GND" type="power_in"/>
+        <pin num="29" name="GPIO22" type="bidirectional"/>
+        <pin num="30" name="RUN" type="input"/>
+        <pin num="31" name="GPIO26_ADC0" type="bidirectional"/>
+        <pin num="32" name="GPIO27_ADC1" type="bidirectional"/>
+        <pin num="33" name="AGND" type="power_in"/>
+        <pin num="34" name="GPIO28_ADC2" type="bidirectional"/>
+        <pin num="35" name="ADC_VREF" type="power_in"/>
+        <pin num="36" name="3V3" type="power_in"/>
+        <pin num="37" name="3V3_EN" type="input"/>
+        <pin num="38" name="GND" type="bidirectional"/>
+        <pin num="39" name="VSYS" type="power_in"/>
+        <pin num="40" name="VBUS" type="power_in"/>
+        <pin num="41" name="SWCLK" type="input"/>
+        <pin num="42" name="GND" type="power_in"/>
+        <pin num="43" name="SWDIO" type="bidirectional"/>
+      </pins>
+    </libpart>
+    <libpart lib="apple_ii_parts" part="SN74HC4851">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">SN74HC4851</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y4" type="bidirectional"/>
+        <pin num="2" name="Y6" type="bidirectional"/>
+        <pin num="3" name="Com" type="output"/>
+        <pin num="4" name="Y7" type="bidirectional"/>
+        <pin num="5" name="Y5" type="bidirectional"/>
+        <pin num="6" name="INH" type="input"/>
+        <pin num="7" name="NC" type="no_connect"/>
+        <pin num="8" name="GND" type="power_out"/>
+        <pin num="9" name="C" type="bidirectional"/>
+        <pin num="10" name="B" type="bidirectional"/>
+        <pin num="11" name="A" type="bidirectional"/>
+        <pin num="12" name="Y3" type="bidirectional"/>
+        <pin num="13" name="Y0" type="bidirectional"/>
+        <pin num="14" name="Y1" type="bidirectional"/>
+        <pin num="15" name="Y2" type="bidirectional"/>
+        <pin num="16" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="apple_ii_parts" part="TLP592A">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TLP592A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="anode" type="input"/>
+        <pin num="2" name="cathode" type="output"/>
+        <pin num="3" name="D2" type="no_connect"/>
+        <pin num="4" name="D1" type="output"/>
+        <pin num="5" name="Source" type="input"/>
+        <pin num="6" name="D2" type="output"/>
+      </pins>
+    </libpart>
+    <libpart lib="apple_ii_parts" part="apple_2e_keyboard">
+      <fields>
+        <field name="Reference">p</field>
+        <field name="Value">apple_2e_keyboard</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Y0" type="output"/>
+        <pin num="2" name="Y1" type="output"/>
+        <pin num="3" name="5v" type="power_out"/>
+        <pin num="4" name="Y2" type="output"/>
+        <pin num="5" name="SW1/CAPL" type="open_emitter"/>
+        <pin num="6" name="Y3" type="output"/>
+        <pin num="7" name="SW0/OAPL" type="open_emitter"/>
+        <pin num="8" name="Y4" type="output"/>
+        <pin num="9" name="CAPLOCK" type="open_collector"/>
+        <pin num="10" name="Y5" type="output"/>
+        <pin num="11" name="CNTL" type="open_collector"/>
+        <pin num="12" name="y8" type="output"/>
+        <pin num="13" name="GND" type="power_out"/>
+        <pin num="14" name="x0" type="input"/>
+        <pin num="15" name="RESET" type="open_collector"/>
+        <pin num="16" name="x2" type="input"/>
+        <pin num="17" name="x7" type="input"/>
+        <pin num="18" name="x1" type="input"/>
+        <pin num="19" name="x5" type="input"/>
+        <pin num="20" name="x3" type="input"/>
+        <pin num="21" name="x4" type="input"/>
+        <pin num="22" name="y9" type="output"/>
+        <pin num="23" name="y6" type="output"/>
+        <pin num="24" name="SHFT*" type="open_collector"/>
+        <pin num="25" name="Y7" type="output"/>
+        <pin num="26" name="x6" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="CAP">
+      <description>Capacitor symbol for simulation only</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CAP</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="pspice" part="DIODE">
+      <description>Diode symbol for simulation only. Pin order incompatible with official kicad footprints</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">DIODE</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="input"/>
+        <pin num="2" name="A" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Connector">
+      <uri>/usr/share/kicad/symbols//Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>/usr/share/kicad/symbols//Device.kicad_sym</uri>
+    </library>
+    <library logical="Logic_LevelTranslator">
+      <uri>/usr/share/kicad/symbols//Logic_LevelTranslator.kicad_sym</uri>
+    </library>
+    <library logical="MCU_RaspberryPi_and_Boards">
+      <uri>/home/testsetup/Documents/pico/KicadDocs/KiCad-RP-Pico/RP-Pico Libraries/MCU_RaspberryPi_and_Boards.kicad_sym</uri>
+    </library>
+    <library logical="apple_ii_parts">
+      <uri>/home/testsetup/Documents/pico/keyboard_pico/apple_pico_keyboard/apple_ii_parts.kicad_sym</uri>
+    </library>
+    <library logical="pspice">
+      <uri>/usr/share/kicad/symbols//pspice.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="19" pinfunction="VCCB" pintype="power_in"/>
+      <node ref="U3" pin="36" pinfunction="3V3" pintype="power_in"/>
+      <node ref="keyboard_voltage_shifters1" pin="19" pinfunction="VCCB" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="D1" pin="2" pinfunction="A" pintype="input"/>
+      <node ref="Op_Pullup_data1" pin="2" pintype="passive"/>
+      <node ref="Op_pullup_ck1" pin="1" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="2" pinfunction="VCCA" pintype="power_in"/>
+      <node ref="U1" pin="4" pinfunction="D1" pintype="output"/>
+      <node ref="U1" pin="6" pinfunction="D2" pintype="output"/>
+      <node ref="U2" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="U4" pin="16" pinfunction="VCC" pintype="power_in"/>
+      <node ref="keyboard_voltage_shifters1" pin="2" pinfunction="VCCA" pintype="power_in"/>
+    </net>
+    <net code="3" name="/A_A1">
+      <node ref="U2" pin="11" pinfunction="A" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="1" pinfunction="A1" pintype="bidirectional"/>
+    </net>
+    <net code="4" name="/A_A6">
+      <node ref="U4" pin="11" pinfunction="A" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="7" pinfunction="A6" pintype="bidirectional"/>
+    </net>
+    <net code="5" name="/B_A2">
+      <node ref="U2" pin="10" pinfunction="B" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="3" pinfunction="A2" pintype="bidirectional"/>
+    </net>
+    <net code="6" name="/B_A7">
+      <node ref="U4" pin="10" pinfunction="B" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="8" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="7" name="/C_A3">
+      <node ref="U2" pin="9" pinfunction="C" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="4" pinfunction="A3" pintype="bidirectional"/>
+    </net>
+    <net code="8" name="/C_A8">
+      <node ref="U4" pin="9" pinfunction="C" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="9" pinfunction="A8" pintype="bidirectional"/>
+    </net>
+    <net code="9" name="/Cap_pin">
+      <node ref="SpecialKeys_voltage_shifters1" pin="4" pinfunction="A3" pintype="bidirectional"/>
+      <node ref="p1" pin="9" pinfunction="CAPLOCK" pintype="open_collector"/>
+    </net>
+    <net code="10" name="/Ctrl_pin">
+      <node ref="SpecialKeys_voltage_shifters1" pin="5" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="p1" pin="11" pinfunction="CNTL" pintype="open_collector"/>
+    </net>
+    <net code="11" name="/E_LevelShift">
+      <node ref="R2" pin="1" pintype="passive"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="10" pinfunction="OE" pintype="input"/>
+      <node ref="U3" pin="34" pinfunction="GPIO28_ADC2" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="10" pinfunction="OE" pintype="input"/>
+    </net>
+    <net code="12" name="/Reset_pin">
+      <node ref="SpecialKeys_voltage_shifters1" pin="1" pinfunction="A1" pintype="bidirectional"/>
+      <node ref="p1" pin="15" pinfunction="RESET" pintype="open_collector"/>
+    </net>
+    <net code="13" name="/Shift_pin">
+      <node ref="SpecialKeys_voltage_shifters1" pin="3" pinfunction="A2" pintype="bidirectional"/>
+      <node ref="p1" pin="24" pinfunction="SHFT*" pintype="open_collector"/>
+    </net>
+    <net code="14" name="/Sw0_pin">
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="7" pinfunction="A6" pintype="bidirectional"/>
+      <node ref="p1" pin="7" pinfunction="SW0/OAPL" pintype="open_emitter"/>
+    </net>
+    <net code="15" name="/Sw1_pin">
+      <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="6" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="p1" pin="5" pinfunction="SW1/CAPL" pintype="open_emitter"/>
+    </net>
+    <net code="16" name="/VBUS">
+      <node ref="D1" pin="1" pinfunction="K" pintype="input"/>
+      <node ref="J1" pin="1" pinfunction="VBUS" pintype="power_in"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U3" pin="40" pinfunction="VBUS" pintype="power_in"/>
+    </net>
+    <net code="17" name="/Y0">
+      <node ref="TP19" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="13" pinfunction="Y0" pintype="bidirectional"/>
+      <node ref="p1" pin="1" pinfunction="Y0" pintype="output"/>
+      <node ref="passthrough1" pin="1" pinfunction="Y0" pintype="output"/>
+    </net>
+    <net code="18" name="/Y1">
+      <node ref="U2" pin="14" pinfunction="Y1" pintype="bidirectional"/>
+      <node ref="p1" pin="2" pinfunction="Y1" pintype="output"/>
+      <node ref="passthrough1" pin="2" pinfunction="Y1" pintype="output"/>
+    </net>
+    <net code="19" name="/Y2">
+      <node ref="U2" pin="15" pinfunction="Y2" pintype="bidirectional"/>
+      <node ref="p1" pin="4" pinfunction="Y2" pintype="output"/>
+      <node ref="passthrough1" pin="4" pinfunction="Y2" pintype="output"/>
+    </net>
+    <net code="20" name="/Y3">
+      <node ref="U2" pin="12" pinfunction="Y3" pintype="bidirectional"/>
+      <node ref="p1" pin="6" pinfunction="Y3" pintype="output"/>
+      <node ref="passthrough1" pin="6" pinfunction="Y3" pintype="output"/>
+    </net>
+    <net code="21" name="/Y4">
+      <node ref="U2" pin="1" pinfunction="Y4" pintype="bidirectional"/>
+      <node ref="p1" pin="8" pinfunction="Y4" pintype="output"/>
+      <node ref="passthrough1" pin="8" pinfunction="Y4" pintype="output"/>
+    </net>
+    <net code="22" name="/Y5">
+      <node ref="U2" pin="5" pinfunction="Y5" pintype="bidirectional"/>
+      <node ref="p1" pin="10" pinfunction="Y5" pintype="output"/>
+      <node ref="passthrough1" pin="10" pinfunction="Y5" pintype="output"/>
+    </net>
+    <net code="23" name="/Y6">
+      <node ref="U2" pin="2" pinfunction="Y6" pintype="bidirectional"/>
+      <node ref="p1" pin="23" pinfunction="y6" pintype="output"/>
+      <node ref="passthrough1" pin="23" pinfunction="y6" pintype="output"/>
+    </net>
+    <net code="24" name="/Y7">
+      <node ref="U2" pin="4" pinfunction="Y7" pintype="bidirectional"/>
+      <node ref="p1" pin="25" pinfunction="Y7" pintype="output"/>
+      <node ref="passthrough1" pin="25" pinfunction="Y7" pintype="output"/>
+    </net>
+    <net code="25" name="/Y8">
+      <node ref="keyboard_voltage_shifters1" pin="5" pinfunction="A4" pintype="bidirectional"/>
+      <node ref="p1" pin="12" pinfunction="y8" pintype="output"/>
+      <node ref="passthrough1" pin="12" pinfunction="y8" pintype="output"/>
+    </net>
+    <net code="26" name="/Y9">
+      <node ref="keyboard_voltage_shifters1" pin="6" pinfunction="A5" pintype="bidirectional"/>
+      <node ref="p1" pin="22" pinfunction="y9" pintype="output"/>
+      <node ref="passthrough1" pin="22" pinfunction="y9" pintype="output"/>
+    </net>
+    <net code="27" name="/p_g_0">
+      <node ref="J4" pin="16" pinfunction="Pin_16" pintype="passive"/>
+      <node ref="U3" pin="1" pinfunction="GPIO0" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="20" pinfunction="B1" pintype="bidirectional"/>
+    </net>
+    <net code="28" name="/p_g_1">
+      <node ref="J4" pin="15" pinfunction="Pin_15" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="GPIO1" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="18" pinfunction="B2" pintype="bidirectional"/>
+    </net>
+    <net code="29" name="/p_g_2">
+      <node ref="J4" pin="14" pinfunction="Pin_14" pintype="passive"/>
+      <node ref="U3" pin="4" pinfunction="GPIO2" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="17" pinfunction="B3" pintype="bidirectional"/>
+    </net>
+    <net code="30" name="/p_g_3">
+      <node ref="J4" pin="13" pinfunction="Pin_13" pintype="passive"/>
+      <node ref="U3" pin="5" pinfunction="GPIO3" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="16" pinfunction="B4" pintype="bidirectional"/>
+    </net>
+    <net code="31" name="/p_g_4">
+      <node ref="J4" pin="12" pinfunction="Pin_12" pintype="passive"/>
+      <node ref="U3" pin="6" pinfunction="GPIO4" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="15" pinfunction="B5" pintype="bidirectional"/>
+    </net>
+    <net code="32" name="/p_g_5">
+      <node ref="J4" pin="11" pinfunction="Pin_11" pintype="passive"/>
+      <node ref="U3" pin="7" pinfunction="GPIO5" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="14" pinfunction="B6" pintype="bidirectional"/>
+    </net>
+    <net code="33" name="/p_g_6">
+      <node ref="J4" pin="10" pinfunction="Pin_10" pintype="passive"/>
+      <node ref="U3" pin="9" pinfunction="GPIO6" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="13" pinfunction="B7" pintype="bidirectional"/>
+    </net>
+    <net code="34" name="/p_g_7">
+      <node ref="J4" pin="9" pinfunction="Pin_9" pintype="passive"/>
+      <node ref="U3" pin="10" pinfunction="GPIO7" pintype="bidirectional"/>
+      <node ref="keyboard_voltage_shifters1" pin="12" pinfunction="B8" pintype="bidirectional"/>
+    </net>
+    <net code="35" name="/p_g_8">
+      <node ref="J4" pin="8" pinfunction="Pin_8" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="20" pinfunction="B1" pintype="bidirectional"/>
+      <node ref="U3" pin="11" pinfunction="GPIO8" pintype="bidirectional"/>
+    </net>
+    <net code="36" name="/p_g_9">
+      <node ref="J4" pin="7" pinfunction="Pin_7" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="18" pinfunction="B2" pintype="bidirectional"/>
+      <node ref="U3" pin="12" pinfunction="GPIO9" pintype="bidirectional"/>
+    </net>
+    <net code="37" name="/p_g_10">
+      <node ref="J4" pin="6" pinfunction="Pin_6" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="17" pinfunction="B3" pintype="bidirectional"/>
+      <node ref="U3" pin="14" pinfunction="GPIO10" pintype="bidirectional"/>
+    </net>
+    <net code="38" name="/p_g_11">
+      <node ref="J4" pin="5" pinfunction="Pin_5" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="16" pinfunction="B4" pintype="bidirectional"/>
+      <node ref="U3" pin="15" pinfunction="GPIO11" pintype="bidirectional"/>
+    </net>
+    <net code="39" name="/p_g_12">
+      <node ref="J4" pin="4" pinfunction="Pin_4" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="15" pinfunction="B5" pintype="bidirectional"/>
+      <node ref="U3" pin="16" pinfunction="GPIO12" pintype="bidirectional"/>
+    </net>
+    <net code="40" name="/p_g_13">
+      <node ref="J4" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="14" pinfunction="B6" pintype="bidirectional"/>
+      <node ref="U3" pin="17" pinfunction="GPIO13" pintype="bidirectional"/>
+    </net>
+    <net code="41" name="/p_g_14">
+      <node ref="J4" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="13" pinfunction="B7" pintype="bidirectional"/>
+      <node ref="U3" pin="19" pinfunction="GPIO14" pintype="bidirectional"/>
+    </net>
+    <net code="42" name="/p_g_15">
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="12" pinfunction="B8" pintype="bidirectional"/>
+      <node ref="U3" pin="20" pinfunction="GPIO15" pintype="bidirectional"/>
+    </net>
+    <net code="43" name="/x0">
+      <node ref="TP20" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="13" pinfunction="Y0" pintype="bidirectional"/>
+      <node ref="p1" pin="14" pinfunction="x0" pintype="input"/>
+      <node ref="passthrough1" pin="14" pinfunction="x0" pintype="input"/>
+    </net>
+    <net code="44" name="/x1">
+      <node ref="U4" pin="14" pinfunction="Y1" pintype="bidirectional"/>
+      <node ref="p1" pin="18" pinfunction="x1" pintype="input"/>
+      <node ref="passthrough1" pin="18" pinfunction="x1" pintype="input"/>
+    </net>
+    <net code="45" name="/x2">
+      <node ref="U4" pin="15" pinfunction="Y2" pintype="bidirectional"/>
+      <node ref="p1" pin="16" pinfunction="x2" pintype="input"/>
+      <node ref="passthrough1" pin="16" pinfunction="x2" pintype="input"/>
+    </net>
+    <net code="46" name="/x3">
+      <node ref="U4" pin="12" pinfunction="Y3" pintype="bidirectional"/>
+      <node ref="p1" pin="20" pinfunction="x3" pintype="input"/>
+      <node ref="passthrough1" pin="20" pinfunction="x3" pintype="input"/>
+    </net>
+    <net code="47" name="/x4">
+      <node ref="U4" pin="1" pinfunction="Y4" pintype="bidirectional"/>
+      <node ref="p1" pin="21" pinfunction="x4" pintype="input"/>
+      <node ref="passthrough1" pin="21" pinfunction="x4" pintype="input"/>
+    </net>
+    <net code="48" name="/x5">
+      <node ref="U4" pin="5" pinfunction="Y5" pintype="bidirectional"/>
+      <node ref="p1" pin="19" pinfunction="x5" pintype="input"/>
+      <node ref="passthrough1" pin="19" pinfunction="x5" pintype="input"/>
+    </net>
+    <net code="49" name="/x6">
+      <node ref="U4" pin="2" pinfunction="Y6" pintype="bidirectional"/>
+      <node ref="p1" pin="26" pinfunction="x6" pintype="input"/>
+      <node ref="passthrough1" pin="26" pinfunction="x6" pintype="input"/>
+    </net>
+    <net code="50" name="/x7">
+      <node ref="U4" pin="4" pinfunction="Y7" pintype="bidirectional"/>
+      <node ref="p1" pin="17" pinfunction="x7" pintype="input"/>
+      <node ref="passthrough1" pin="17" pinfunction="x7" pintype="input"/>
+    </net>
+    <net code="51" name="GND">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="J1" pin="5" pinfunction="Shield" pintype="passive"/>
+      <node ref="J2" pin="5" pinfunction="5" pintype="passive"/>
+      <node ref="J3" pin="3" pintype="passive"/>
+      <node ref="J5" pin="3" pinfunction="Pin_3" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="TP21" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="2" pinfunction="cathode" pintype="output"/>
+      <node ref="U2" pin="6" pinfunction="INH" pintype="input"/>
+      <node ref="U2" pin="8" pinfunction="GND" pintype="power_out"/>
+      <node ref="U3" pin="13" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="18" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="23" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="28" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="38" pinfunction="GND" pintype="bidirectional"/>
+      <node ref="U3" pin="8" pinfunction="GND" pintype="power_in"/>
+      <node ref="U4" pin="6" pinfunction="INH" pintype="input"/>
+      <node ref="U4" pin="8" pinfunction="GND" pintype="power_out"/>
+      <node ref="keyboard_voltage_shifters1" pin="11" pinfunction="GND" pintype="power_in"/>
+      <node ref="p1" pin="13" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="52" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="D-" pintype="bidirectional"/>
+      <node ref="TP2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4" pinfunction="GND" pintype="power_in"/>
+      <node ref="Tp1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(J2-Pad2)">
+      <node ref="J2" pin="2" pinfunction="2" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="U3" pin="21" pinfunction="GPIO16" pintype="bidirectional"/>
+    </net>
+    <net code="55" name="Net-(J2-Pad3)">
+      <node ref="J2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="J5" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="U3" pin="22" pinfunction="GPIO17" pintype="bidirectional"/>
+    </net>
+    <net code="56" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1" pintype="passive"/>
+      <node ref="Op_Pullup_data1" pin="1" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="8" pinfunction="A7" pintype="bidirectional"/>
+    </net>
+    <net code="57" name="Net-(J3-Pad5)">
+      <node ref="J3" pin="5" pintype="passive"/>
+      <node ref="Op_pullup_ck1" pin="2" pintype="passive"/>
+      <node ref="SpecialKeys_voltage_shifters1" pin="9" pinfunction="A8" pintype="bidirectional"/>
+    </net>
+    <net code="58" name="Net-(R1-Pad2)">
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="1" pinfunction="anode" pintype="input"/>
+    </net>
+    <net code="59" name="Net-(TP3-Pad1)">
+      <node ref="J1" pin="3" pinfunction="D+" pintype="bidirectional"/>
+      <node ref="TP3" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(TP22-Pad1)">
+      <node ref="TP22" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="5" pinfunction="Source" pintype="input"/>
+      <node ref="p1" pin="3" pinfunction="5v" pintype="power_out"/>
+    </net>
+    <net code="61" name="Net-(TP23-Pad1)">
+      <node ref="TP23" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="32" pinfunction="GPIO27_ADC1" pintype="bidirectional"/>
+    </net>
+    <net code="62" name="Net-(TP24-Pad1)">
+      <node ref="TP24" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U3" pin="31" pinfunction="GPIO26_ADC0" pintype="bidirectional"/>
+    </net>
+    <net code="63" name="Net-(TP25-Pad1)">
+      <node ref="TP25" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="Com" pintype="output"/>
+    </net>
+    <net code="64" name="Net-(TP26-Pad1)">
+      <node ref="TP26" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="Com" pintype="output"/>
+    </net>
+    <net code="65" name="unconnected-(J2-Pad1)">
+      <node ref="J2" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="66" name="unconnected-(J2-Pad4)">
+      <node ref="J2" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="67" name="unconnected-(J2-Pad6)">
+      <node ref="J2" pin="6" pinfunction="6" pintype="passive"/>
+    </net>
+    <net code="68" name="unconnected-(J2-Pad7)">
+      <node ref="J2" pin="7" pinfunction="7" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(J2-Pad8)">
+      <node ref="J2" pin="8" pinfunction="8" pintype="passive"/>
+    </net>
+    <net code="70" name="unconnected-(J2-Pad9)">
+      <node ref="J2" pin="9" pinfunction="9" pintype="passive"/>
+    </net>
+    <net code="71" name="unconnected-(J3-Pad2)">
+      <node ref="J3" pin="2" pintype="passive"/>
+    </net>
+    <net code="72" name="unconnected-(J3-Pad4)">
+      <node ref="J3" pin="4" pintype="passive"/>
+    </net>
+    <net code="73" name="unconnected-(J3-Pad6)">
+      <node ref="J3" pin="6" pintype="passive"/>
+    </net>
+    <net code="74" name="unconnected-(U1-Pad3)">
+      <node ref="U1" pin="3" pinfunction="D2" pintype="no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(U2-Pad7)">
+      <node ref="U2" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(U3-Pad24)">
+      <node ref="U3" pin="24" pinfunction="GPIO18" pintype="bidirectional"/>
+    </net>
+    <net code="77" name="unconnected-(U3-Pad25)">
+      <node ref="U3" pin="25" pinfunction="GPIO19" pintype="bidirectional"/>
+    </net>
+    <net code="78" name="unconnected-(U3-Pad26)">
+      <node ref="U3" pin="26" pinfunction="GPIO20" pintype="bidirectional"/>
+    </net>
+    <net code="79" name="unconnected-(U3-Pad27)">
+      <node ref="U3" pin="27" pinfunction="GPIO21" pintype="bidirectional"/>
+    </net>
+    <net code="80" name="unconnected-(U3-Pad29)">
+      <node ref="U3" pin="29" pinfunction="GPIO22" pintype="bidirectional"/>
+    </net>
+    <net code="81" name="unconnected-(U3-Pad30)">
+      <node ref="U3" pin="30" pinfunction="RUN" pintype="input"/>
+    </net>
+    <net code="82" name="unconnected-(U3-Pad33)">
+      <node ref="U3" pin="33" pinfunction="AGND" pintype="power_in"/>
+    </net>
+    <net code="83" name="unconnected-(U3-Pad35)">
+      <node ref="U3" pin="35" pinfunction="ADC_VREF" pintype="power_in"/>
+    </net>
+    <net code="84" name="unconnected-(U3-Pad37)">
+      <node ref="U3" pin="37" pinfunction="3V3_EN" pintype="input"/>
+    </net>
+    <net code="85" name="unconnected-(U3-Pad39)">
+      <node ref="U3" pin="39" pinfunction="VSYS" pintype="power_in"/>
+    </net>
+    <net code="86" name="unconnected-(U3-Pad41)">
+      <node ref="U3" pin="41" pinfunction="SWCLK" pintype="input"/>
+    </net>
+    <net code="87" name="unconnected-(U3-Pad42)">
+      <node ref="U3" pin="42" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="88" name="unconnected-(U3-Pad43)">
+      <node ref="U3" pin="43" pinfunction="SWDIO" pintype="bidirectional"/>
+    </net>
+    <net code="89" name="unconnected-(U4-Pad7)">
+      <node ref="U4" pin="7" pinfunction="NC" pintype="no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(passthrough1-Pad3)">
+      <node ref="passthrough1" pin="3" pinfunction="5v" pintype="power_out"/>
+    </net>
+    <net code="91" name="unconnected-(passthrough1-Pad5)">
+      <node ref="passthrough1" pin="5" pinfunction="SW1/CAPL" pintype="open_emitter"/>
+    </net>
+    <net code="92" name="unconnected-(passthrough1-Pad7)">
+      <node ref="passthrough1" pin="7" pinfunction="SW0/OAPL" pintype="open_emitter"/>
+    </net>
+    <net code="93" name="unconnected-(passthrough1-Pad9)">
+      <node ref="passthrough1" pin="9" pinfunction="CAPLOCK" pintype="open_collector"/>
+    </net>
+    <net code="94" name="unconnected-(passthrough1-Pad11)">
+      <node ref="passthrough1" pin="11" pinfunction="CNTL" pintype="open_collector"/>
+    </net>
+    <net code="95" name="unconnected-(passthrough1-Pad13)">
+      <node ref="passthrough1" pin="13" pinfunction="GND" pintype="power_out"/>
+    </net>
+    <net code="96" name="unconnected-(passthrough1-Pad15)">
+      <node ref="passthrough1" pin="15" pinfunction="RESET" pintype="open_collector"/>
+    </net>
+    <net code="97" name="unconnected-(passthrough1-Pad24)">
+      <node ref="passthrough1" pin="24" pinfunction="SHFT*" pintype="open_collector"/>
+    </net>
+  </nets>
+</export>
